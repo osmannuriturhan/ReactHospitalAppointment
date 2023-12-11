@@ -17,6 +17,7 @@ function AddModal({ show, handleClose, drName, handleAdd }) {
       doctor: drName,
     };
     handleAdd(newAppointment);
+    handleClose();
   };
 
   return (
